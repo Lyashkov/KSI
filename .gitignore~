@@ -20,4 +20,3 @@
 
 # Ignore database.yml
 /locales/database.yml
-/config/database.yml
