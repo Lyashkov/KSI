@@ -9,21 +9,21 @@ default: &default
   encoding: unicode
   pool: 5
   timeout: 5000
-  username: jan
-  password: 'pswd'
+  username: michail
+  password: 17qazxswedc321
   host: localhost
 
 development:
   <<: *default
-  database: ksi_development
+  database: michail_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: ksi_test
+  database: michail_test
 
 production:
   <<: *default
-  database: ksi_production
+  database: michail_production
