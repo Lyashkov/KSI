@@ -5,6 +5,14 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# Rails authentification
+gem 'devise', '~> 3.2.4'
+# Rails authorization
+gem 'cancan', '~> 1.6.10'
+# While it isn't necessary
+gem 'enumerize', '~> 0.8.0'
+# For download avatars
+gem 'carrierwave', '~> 0.10.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
